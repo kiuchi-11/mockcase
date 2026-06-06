@@ -1,0 +1,156 @@
+.mypage {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.mypage__profile {
+    max-width: 1000px;
+    margin: 80px auto 60px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mypage__profile-image-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mypage__profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mypage__profile-image-default {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+.mypage__profile-content {
+    flex: 1;
+    margin-left: 60px;
+}
+
+.mypage__user-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.mypage__profile-button-area {
+    display: flex;
+    align-items: center;
+}
+
+.mypage__edit-button {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 2px solid #ff5555;
+    border-radius: 8px;
+    color: #ff5555;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mypage__tab {
+    max-width: 100%;
+    padding-left: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.mypage__tab-button {
+    padding-bottom: 16px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5f5f5f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mypage__tab-button--active {
+    color: #ff0000;
+}
+
+.mypage__border {
+    width: 100%;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.mypage__product-list {
+    max-width: 1400px;
+    margin: 70px auto 0;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px 40px;
+}
+
+.mypage__product-card {
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.mypage__product-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.mypage__product-name {
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.mypage__empty-message {
+    font-size: 18px;
+    color: #666666;
+}
+
+@media screen and (max-width: 850px) {
+
+    .mypage__profile {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .mypage__profile-content {
+        margin-left: 0;
+    }
+
+    .mypage__user-name {
+        font-size: 28px;
+    }
+
+    .mypage__tab {
+        padding-left: 30px;
+        gap: 30px;
+    }
+
+    .mypage__tab-button {
+        font-size: 18px;
+    }
+
+    .mypage__product-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+
+    .mypage__product-name {
+        font-size: 18px;
+    }
+}

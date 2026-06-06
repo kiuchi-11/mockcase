@@ -1,0 +1,46 @@
+.register {
+    width: 400px;
+    margin: 60px auto;
+}
+
+.register__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.register__group {
+    margin-bottom: 24px;
+}
+
+.register__label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.register__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.register__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.register__button {
+    width: 100%;
+    padding: 12px;
+    background: #ff5a5a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.register__login {
+    text-align: center;
+    margin-top: 20px;
+}

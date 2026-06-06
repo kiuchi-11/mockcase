@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background: #000;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.header__logo img {
+    height: 30px;
+}
+
+.auth-main {
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    width: 400px;
+    padding: 40px;
+}
+
+.register__title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.register__group {
+    margin-bottom: 20px;
+}
+
+.register__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.register__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register__button {
+    width: 100%;
+    padding: 12px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.register__login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register__login a {
+    text-decoration: none;
+    color: #1870c9;
+}
+
+.register__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.login__register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login__register a {
+    text-decoration: none;
+    color: #1870c9;
+}
